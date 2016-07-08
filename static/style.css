@@ -1,16 +1,22 @@
 h1 {
 	text-align: center;
 	margin-bottom: 20px;
+	margin-top: 25px;
 }
-div {
+div.container.jumbotron {
 	border-radius: 15px;
 }
 .container {
 	margin: 20px;
-	width: 90%
+	width: 90%;
+	padding-top: 0;
+}
+.jumbotron {
+	padding-top: 0;
 }
 h3 {
 	text-align: center;
+	margin-bottom: 20px;
 }
 input	{
 	display: inline-block;
@@ -21,6 +27,6 @@ input	{
 	width: 100px;
 }
 form {
-	margin-top: 30px;
+	margin-top: 20px;
 	text-align: center;
 }
